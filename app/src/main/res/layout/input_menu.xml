@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/houseNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:hint="House Number"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:inputType="number"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/street"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:hint="Street"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:hint="City"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:hint="State"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+    android:id="@+id/timeOpen"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:gravity="center"
+    android:hint="Time Open (HH:MM)"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:imeOptions="actionDone"/>
+
+    <EditText
+        android:id="@+id/timeClose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:hint="Time Close (HH:MM)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:imeOptions="actionDone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/enterAddress"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Add Address" />
+
+        <Button
+            android:id="@+id/viewMap"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="View Map" />
+    </LinearLayout>
+
+</LinearLayout>
